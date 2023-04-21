@@ -930,5 +930,33 @@
     "max_cats": 6,
     "antagonize_text": null,
     "antagonize_fail_text": null
+},
+    {
+    "patrol_id": "fst_hunt_leaffall_solowarriorbird",
+    "biome": "forest",
+    "season": "leaf-fall",
+    "tags": [
+        "hunting",
+        "warrior",
+        "no_fail_prey",
+        "small_prey"],
+    "intro_text": "p_l spots a dappled, feathered back and a bright orange chest nestled amongst some moss on the forest floor.",
+    "decline_text": "A brambling would be too paltry of a meal for the Clan. p_l decides to look for larger prey.",
+    "success_text": [
+        "p_l crouches and creeps up on the brambling. When {PRONOUN/p_l/subject} {VERB/p_l/pounce/pounces}, it has no idea what hits it.",
+        "p_l wiggles {PRONOUN/p_l/poss} haunches as {PRONOUN/p_l/subject} {VERB/p_l/creep/creeps} up on the unsuspecting brambling. {PRONOUN/p_l/subject/CAP} {VERB/p_l/pounce/pounces} and {VERB/p_l/finish/finishes} it off in a flurry of black, white, and orange feathers."],
+    "fail_text": [
+        "p_l crouches and tries to creep up on the brambling, but {PRONOUN/p_l/subject} {VERB/p_l/step/steps} on a twig and the bird flies away in a flurry of feathers."],
+    "chance_of_success": 75,
+    "exp": 10,
+    "win_skills": [
+        "good hunter",
+        "great hunter",
+        "fantastic hunter"],
+    "win_trait": null,
+    "fail_trait": null,
+    "min_cats": 1,
+    "max_cats": 1,
+    "antagonize_text": null,
+    "antagonize_fail_text": null
 }
-]
