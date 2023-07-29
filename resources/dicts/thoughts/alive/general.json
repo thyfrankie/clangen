@@ -58,9 +58,6 @@
             "Can't wait to take a nap later",
             "Is batting at {PRONOUN/m_c/poss} tail",
             "Wants to visit the elders to hear a story",
-            "Is giving some advice to r_c",
-            "Thinks r_c is really pretty",
-            "Thinks r_c is really handsome",
             "Daydreams about being a warrior in LionClan",
             "Daydreams about being a warrior in TigerClan",
             "Daydreams about being a warrior in LeopardClan",
@@ -71,7 +68,6 @@
             "Thinks about StarClan",
             "Saw a kittypet with the fluffiest fur imaginable today",
             "Saw a big scary dog today",
-            "Is playing a prank on r_c",
             "Is looking forward to the next Gathering"
         ],
         "main_status_constraint": [
@@ -126,7 +122,11 @@
         "thoughts": [
             "Is eavesdropping on r_c",
             "Wants to get to know r_c better",
-            "Wonders how r_c is doing"
+            "Wonders how r_c is doing",
+            "Is giving some advice to r_c",
+            "Thinks r_c is really pretty",
+            "Thinks r_c is really handsome",
+            "Is playing a prank on r_c"
         ],
         "main_status_constraint": [
             "apprentice",
@@ -157,7 +157,7 @@
             "Knows r_c will make a great Clanmate someday",
             "Is playing mossball with r_c",
             "Watches r_c pretend to hunt a mouse",
-            "Catches r_c climbing a bit too high",
+            "Catches r_c climbing a bit too high"
         ],
         "main_status_constraint": [
             "kitten",
@@ -309,7 +309,8 @@
     {
         "id": "gen_to_alive_elder",
         "thoughts": [
-            "Is hoping r_c will tell {PRONOUN/m_c/object} a new story"
+            "Is hoping r_c will tell {PRONOUN/m_c/object} a new story",
+            "Wonders at all that r_c has seen and done"
         ],
         "main_status_constraint": [
             "kitten",
